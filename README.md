@@ -13,7 +13,8 @@ A nascent [jQuery-Tools](http://jquerytools.github.io) widget set for the [Remi 
 NOTE: Event handling, docs,  and tests are still a work in progress.
 
 
-### Overlay Widget
+Overlay Widget
+--------------
 ![ScreenShot](/docs/source/overlay.png?raw=true)
 
 
