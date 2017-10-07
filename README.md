@@ -10,7 +10,7 @@ Overview
 A [jQuery-Tools](http://jquerytools.github.io) widget for the [Remi GUI](https://github.com/dddomodossola/remi).
 
 
-![ScreenShot](/docs/source/remijquerytools.png?raw=true)
+![ScreenShot](/docs/source/overlay.png?raw=true)
 
 
 NOTE: Event handling, docs,  and tests are still a work in progress.

@@ -25,13 +25,14 @@ class ExampleFrame(gui.VBox):
         self.row1 = gui.HBox()
         self.append(self.row1)
 
-        self.label = gui.Label('Click here for an overlay.', width=200, height=50, margin='10px')
+        self.label = gui.Button('Click here for an overlay.', width=200, height=50, margin='10px')
         self.row1.append(self.label)
 
         self.overlay = remijquerytools.Overlay(trigger=self.label)
+        self.overlay.style["padding"]="30px 30px 30px 30px"
         self.row1.append(self.overlay)
 
-        label = gui.Label("This is the overlay label")
+        label = gui.Label("This is the overlay.")
         self.overlay.append(label)
 
 
@@ -56,4 +57,4 @@ if __name__ == "__main__":
     # starts the webserver
     # optional parameters
     # start(DemoApp,address='127.0.0.1', port=8081, multiple_instance=False,enable_file_cache=True, update_interval=0.1, start_browser=True)
-    start(DemoApp, title="Overlay Demo", debug=True)
+    start(DemoApp, title="Overlay Demo", debug=True, standalone=False)
