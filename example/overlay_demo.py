@@ -1,7 +1,7 @@
 import sys
 sys.path.append("..")
 
-from demo_logging import configure_logger_with_name
+from logconfig import configure_logger_with_name
 configure_logger_with_name("demo")
 
 
@@ -57,4 +57,4 @@ if __name__ == "__main__":
     # starts the webserver
     # optional parameters
     # start(DemoApp,address='127.0.0.1', port=8081, multiple_instance=False,enable_file_cache=True, update_interval=0.1, start_browser=True)
-    start(DemoApp, title="Overlay Demo", debug=True, standalone=False)
+    start(DemoApp, title="Overlay Demo", debug=True, standalone=True)
