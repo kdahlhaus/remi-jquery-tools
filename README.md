@@ -7,13 +7,16 @@ author: Kevin Dahlhausen
 Overview
 --------
 
-A [jQuery-Tools](http://jquerytools.github.io) widget for the [Remi GUI](https://github.com/dddomodossola/remi).
+
+A nascent [jQuery-Tools](http://jquerytools.github.io) widget set for the [Remi GUI](https://github.com/dddomodossola/remi).
+
+NOTE: Event handling, docs,  and tests are still a work in progress.
 
 
+### Overlay Widget
 ![ScreenShot](/docs/source/overlay.png?raw=true)
 
 
-NOTE: Event handling, docs,  and tests are still a work in progress.
 
 Installation / Usage
 --------------------
