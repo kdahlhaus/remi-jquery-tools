@@ -22,9 +22,14 @@ class ExampleFrame(gui.VBox):
         self.row1 = gui.HBox()
         self.append(self.row1)
 
-        # clicking this button will open the overlay
+        # clicking this label will open the overlay
         # it can be any clickable widget
-        self.trigger_widget = gui.Button('Click here for an overlay.', width=200, height=50, margin='10px')
+        self.trigger_widget = gui.Label('Click here for an overlay.', width=200, height=50)
+
+        # make it look a little nicer
+        self.trigger_widget.style['padding']="10px 10px 10px 10px"
+        self.trigger_widget.style['border']="solid"
+
         self.row1.append(self.trigger_widget)
 
         # build the overlay
