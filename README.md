@@ -40,20 +40,10 @@ Example
 Examples are located in the [example](https://github.com/kdahlhaus/remi-datable/tree/master/example) directory.
 
 
-Updating the Included jQuery-Tools:
------------------------------------
-1. Go to [http://jquerytools.github.io/download/](http://jquerytools.github.io/download/)
-2. Build a custom set of tools with:  Tabs, Tooltip, Overlay (and their suboptions) enabled.   The git distribution also includes jQuery, but you may do that separately.
-3. Extract the appr
-
-
-
 To-Do
 -----
 
 * work out event handling
-* demo hidden-column for identifying a row
-* demo on click handler for a row
 * docs
 * tests
 
