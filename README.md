@@ -1,5 +1,5 @@
-remi-datatable
-===============================
+remi-jquery-tools
+=================
 
 version number: 0.0.1
 author: Kevin Dahlhausen
