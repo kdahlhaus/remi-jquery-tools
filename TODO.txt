@@ -1,0 +1,6 @@
+TODO:
+* move to github
+* add docs
+    required resources
+    jquery (2.?) is included here
+    html header stuff
